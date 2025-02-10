@@ -13,9 +13,20 @@
   <div style="display:flex;flex-direction:column;justify-content:center;align-items:center;">
   <body>
     <p class= "text"><strong>Sidharth Jaishankar</strong></p>
-    <p class= "text">Type & Graphic Design</p>
+    <p class= "text" id="pageText"></p>
     <p class= "text">Writing</p>
     <p class= "text"><a href="mailto:sdhrth.jshnkr@gmail.com">sdhrth.jshnkr@gmail.com</a></p>
+    
+    <script>
+      let pageText = "Type & Graphic Design";
+      
+      let myParagraph = document.querySelector("#pageText");
+      
+      console.log(myParagraph)
+      
+      myParagraph.innerHTML = pageText;
+      
+    </script>
   </body>
   </div>
 </html>
