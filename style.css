@@ -32,7 +32,7 @@ div {
 }
 
 .text{
-  color: #EEE4E1;
+  color: #EBF1FC;
   font-family: "Source Code Pro";
   font-size: 16px;
   line-height: 120%;
@@ -40,7 +40,7 @@ div {
 }
 
 a:link {
-  color: #EEE4E1;
+  color: #EBF1FC;
 }
 a:hover {
   color: #5DFDCB;
