@@ -1,8 +1,19 @@
-.source-code-pro-sc {
-  font-family: "Source Code Pro", monospace;
-  font-optical-sizing: auto;
+.gilda-display-regular {
+  font-family: "Gilda Display", serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.mate-regular {
+  font-family: "Mate", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.mate-regular-italic {
+  font-family: "Mate", serif;
+  font-weight: 400;
+  font-style: italic;
 }
 
 html,
@@ -14,6 +25,7 @@ body {
 body {
   height: 100vh;
   width: 100vw;
+  background-color: #001021;
   cursor: url("cursor.svg"),auto;
 }
 
@@ -21,20 +33,56 @@ body {
   box-sizing: border-box;
 }
 
-div {
+.div1 {
   height: 100%;
-  width: 100%;
-  padding: 10px;
-  font-size: 20px;
-  background-color: #001021;
-  text-align: center;
-  vertical-align: middle;
+  width: 50%;
+  padding: 100px;
+  text-align: left;
+  vertical-align: left;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  gap: 30px;
+  min-width: 520px;
+  max-width: 720px;
+}
+
+.div2 {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  gap: 20px;
+  min-width: 320px;
+  max-width: 720px;
+}
+
+.title{
+  color: #EBF1FC;
+  font-family: "Gilda Display";
+  font-size: 24px;
+  line-height: 120%;
+  margin: 0px;
 }
 
 .text{
   color: #EBF1FC;
-  font-family: "Source Code Pro";
-  font-size: 16px;
+  font-family: "Mate";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 120%;
+  margin: 0px;
+  gap: 10px;
+}
+
+.colophon{
+  color: #EBF1FC;
+  font-family: "Mate";
+  font-style: italic;
+  font-size: 12px;
   line-height: 120%;
   margin: 0px;
 }
@@ -42,7 +90,18 @@ div {
 a:link {
   color: #EBF1FC;
 }
+a:visited {
+    color: #EBF1FC;
+}
 a:hover {
-  color: #5DFDCB;
+  color: #5DFDCB !important;
   cursor: url("cursor-link.svg"),auto;
 }
+/* a.link1:hover:after {
+  top: 400px;
+  left: 1600px;
+  content: url(images/KathaTamil.png);
+  zoom: 25%;
+  position: absolute;
+  z-index:-1;
+} */
