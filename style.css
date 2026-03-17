@@ -97,11 +97,3 @@ a:hover {
   color: #5DFDCB !important;
   cursor: url("cursor-link.svg"),auto;
 }
-/* a.link1:hover:after {
-  top: 400px;
-  left: 1600px;
-  content: url(images/KathaTamil.png);
-  zoom: 25%;
-  position: absolute;
-  z-index:-1;
-} */
