@@ -46,7 +46,7 @@ body {
   align-items: left;
   gap: 30px;
   min-width: 520px;
-  max-width: 720px;
+  max-width: 750px;
 }
 
 .div2 {
@@ -57,7 +57,7 @@ body {
   align-items: left;
   gap: 20px;
   min-width: 320px;
-  max-width: 720px;
+  max-width: 750px;
 }
 
 .title{
